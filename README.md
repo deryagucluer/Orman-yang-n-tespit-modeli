@@ -4,7 +4,7 @@ Wildfire Image Dataset üzerinde CNN + Keras Tuner (HPO) ile orman yangını tes
 ## Giriş
 
 Bu proje, **Wildfire Image Dataset** üzerinde görüntülerden **yangın / normal** ayrımı yapmayı amaçlar.  
-Basit bir **CNN** modeli kurulmuş, **Keras Tuner** ile en iyi ayarlar (HPO) bulunmuş ve model testte doğrulandı.
+Basit bir **CNN** modeli kuruldu, **Keras Tuner** ile en iyi ayarlar (HPO) bulundu ve model testte doğrulandı.
 
 - Görseller 224×224’e ölçeklendi, eğitimde hafif artırma (rotation/shift/zoom/flip) uygulandı.
 - Doğrulama ve test için sadece ölçekleme kullanıldı.
