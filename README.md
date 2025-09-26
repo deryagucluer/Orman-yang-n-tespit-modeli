@@ -35,7 +35,7 @@ Basit bir **CNN** modeli kuruldu, **Keras Tuner** ile en iyi ayarlar (HPO) bulun
 - Model, Wildfire Image Dataset üzerinde **PR-AUC = 0.988**, **ROC-AUC = 0.973** ve **Accuracy = %91.18** elde etti.
 - Karışıklık matrisi: **TP=43 · TN=19 · FP=3 · FN=3** — yanlış alarm ve kaçan yangın sayıları düşüktür.
 - Doğrulama artırmadan ayrılarak (yalnızca ölçekleme) **temiz değerlendirme** yapıldı; sonuçlar modelin **güçlü ayrım gücüne** ve **tatmin edici genellemesine** işaret ediyor.
-- Eğitim sürecinde **EarlyStopping / ReduceLROnPlateau / Checkpoint** kullanımı, aşırı uyumu sınırlayıp en iyi ağırlıkları korudu.
+
 
 ### Gelecek Çalışmalar
 - **Eşik ayarı:** Amaç fonksiyonuna göre (erken tespit vs.) **0.4–0.6** bandında eşik optimizasyonu ile **FN/FP** dengesini hassaslaştırmak.
